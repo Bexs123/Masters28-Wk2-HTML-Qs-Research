@@ -1,0 +1,39 @@
+Act 4 Other HTML Elements
+
+Reaseach these tags to find out what they do:
+
+<scrpipt>
+The script tag can be used to link the html file to JavaScript file, or you can also use the script tag to put an inline
+script inside the script element.
+
+
+<link>
+The link method is used to displaya string as hyperlink.
+You can use the link method to link html file to a css file.
+for example:
+<link rel="stylesheet" href="style.css">
+
+
+<meta>
+The meta tag full name is metadata. Metadata is information about data.
+The meta tages always go inside the head element, and are typically used to specify character set, page description.
+The metadata will not be display on the page, but is machine readable.
+
+
+Differences of <div> and <section>
+The <section> tag creates independent sections within a webpage having logically connected content. The <section> tag is not a container.
+The <div> tag is an empty container specifying a division or a section.
+
+
+Video tags
+The <video> tag is used to embed video content in a document, such as a movie clip or other video streams.
+They contain one or more <source> tags with different video sources. 
+
+
+mailto link
+Mailto link is a type if HTML link that activates the default mail client on the computer for sending emails.
+
+
+SuperScript and Subscript element (for dates, maths, equations etc)
+A subscript or superscript is a letter or number that is set slightly below ir above the normal line of type.
+For example today date is 15th September, so the th in 15th will be a bit smaller and will be at the top.
