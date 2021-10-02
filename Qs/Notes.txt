@@ -1,0 +1,79 @@
+DNS:- Domain Name System
+
+HTTP:- Hyper Text Transfer Protocol 
+
+WWW:- World Wide Web
+
+CSS:- Cascading style sheets is the language used to style websites.
+
+Hyper Text Markup Language is used for coding the actual content of webpages.
+
+Cascading style Sheets is the language used to style websites.
+
+HTML is constructed with lots of elements. These elements are simply the building blocks of HTML pages.
+HTML Elements:- Headings, Paragraphs, Lists and many more.
+
+Tags:- When a HTML document is read, it is the element tags which determine the type of content displayed.
+
+Weather it be HTML, CSS, or Javascript you can make comments in your code this is both notes for yourself, and other developers.
+depends on which document type you are writing there are slight different ways to make the comments.
+Example:- <!-- this is where comments go --> this is how to comment in HTML
+/* This is where the comment go */ this is how to comment in CSS comments
+// This is comment for Javascript
+
+Unordered Lists
+<ul>
+    <li>list 1</li>
+    <li>list 2</li>
+</ul>
+
+Ordered Lists
+<ol>
+    <li>list 1</li>
+    <li>list 2</li>
+</ol>
+
+Attributes are the properties for HTML tags
+
+<tag Attributes>content if required</tag>
+
+<a href="https://wearecodenation.com/">Code Nation</a>
+
+<a href="https://wearecodenation.com/" target="blank">Code Nation</a> this will open the link in a new blank tab 
+rather then open the link in the current page.
+
+Image
+<img src="cn.png" alt="logo">
+<a href="https://wearecodenation.com/"><img src="cn.png" alt="logo"></a>
+
+Three ways to insert CSS
+Inline style
+Internal style sheets
+External style sheet
+
+Inline style would override the other styles and browser defaults.
+Use external style sheet so it tidier
+
+Always start from top to bottom, keeping your HTML and CSS in sync.
+
+CSS rules are formed using a list of properties which we give values (quite similar to key-value pairs in JavaScript objects)
+
+CSS rules apply a list of properties to specific HTML elements, which we target using selectors.
+
+CSS selectors they are used to find the html elements based on their tag name, id, class, attribute etc.
+
+Styling can also be applied to the whole html.
+
+Style everything at once *{} or body {}
+Element selector h1 {}
+ID selector #about me {}
+Class selector .container {}
+Group selectors h1, h2, p {}
+
+/*css comments*/
+/*this is
+a multi-line
+comment*/
+
+ID can only be used once, cannot start with a number
+Classes you can add as many as required.
