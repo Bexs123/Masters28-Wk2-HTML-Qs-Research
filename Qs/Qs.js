@@ -56,7 +56,6 @@ for(let i = str.length -1; i >= 0; i--) {
 console.log(newStr);
 
 
-
 // Declare an array that stores a shopping list.
 
 // This array should have three categories (arrays) of the shopping items and each of these categories should be an array with
@@ -73,7 +72,6 @@ let shoppingList = [
 ];
 console.log(shoppingList[0][0]);
 console.log(shoppingList[1][2])
-
 
 
 // Write a function called dataChecker which takes two parameters(string, rank).

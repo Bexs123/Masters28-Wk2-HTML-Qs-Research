@@ -4,11 +4,14 @@ HTTP:- Hyper Text Transfer Protocol
 
 WWW:- World Wide Web
 
-CSS:- Cascading style sheets is the language used to style websites.
+HTML is the triad of cornerstone technologies for the web.
+The skeleton - HTML
+The appeareance - CSS
+The brain - JavaScript
 
 Hyper Text Markup Language is used for coding the actual content of webpages.
 
-Cascading style Sheets is the language used to style websites.
+CSS:- Cascading style sheets is the language used to style websites.
 
 HTML is constructed with lots of elements. These elements are simply the building blocks of HTML pages.
 HTML Elements:- Headings, Paragraphs, Lists and many more.
@@ -77,3 +80,49 @@ comment*/
 
 ID can only be used once, cannot start with a number
 Classes you can add as many as required.
+
+Box sizing model - design and layout
+
+Content - where text and images appear.
+Padding - clears an area around the content. The padding is transparent.
+Border - A border that goes around the padding and content.
+margin - clears an area outside the border. The margin is transparent.
+
+
+CSS flexbox layout - New layout module in CSS3 to improve items alignments, directions and order
+in the container, dynamic or unknown size.
+
+flexbox will try to work with the width you set, if impossible it will evenly distribute the boxes.
+
+Ordering can help with setting the order of items you wish to disply, whilst keeping the original ordering in the html file.
+
+CSS Transition and Animation
+
+A transition has a clear start and end state, moving from one to the other.
+
+We use transitions when we want our css rules to change.
+
+CSS transitions
+1. Moving elements across the screen
+2. Changing the size of elements
+3. Changing an elements' shape
+4. Combine all of the above
+
+CSS Animations
+
+CSS Animation are similar to transitions.
+
+With CSS animation we can specify lots of different CSS style changes.
+
+There isn't necessarily a definite start and end point (like trabsition) and we can write
+them using something called Keyframes.
+
+@Keyframes yourAnimationName {
+    0% {
+        property: value;
+    }
+    100% {
+        property: value;
+    }
+}
+

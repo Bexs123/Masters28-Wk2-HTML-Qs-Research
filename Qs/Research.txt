@@ -2,7 +2,7 @@ Act 4 Other HTML Elements
 
 Reaseach these tags to find out what they do:
 
-<scrpipt>
+<script>
 The script tag can be used to link the html file to JavaScript file, or you can also use the script tag to put an inline
 script inside the script element.
 
